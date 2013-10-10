@@ -1,21 +1,21 @@
 /* Main Navigation */
-
-li {
-  background: #ffd500;
+li{
+  background:#fe3;
   display: inline;
+  height:50px;
   list-style: none;
-  margin: 10px;
-  padding: 20px;
-  text-align: left;
+  margin: 20px 10px;
+  padding: 20px 10px;
 }
-
 a {
-  color: green;
-  font-size: 24px;
+  color: red;
+  font: 24px bold sans-serif italic;
+  letter-spacing: 2px;
+  text-transform: uppercase; 
   text-decoration: none;
-  text-transform: uppercase;
 }
-
 li:hover {
   background: blue;
-} 
+  color:#fff;
+  transition:background .5s;
+}
